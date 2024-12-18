@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1f1c2c, #928DAB);
+    font-family: 'Arial', sans-serif;
+}
+
+#menu {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#menu h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#menu button {
+    background-color: #2E8BC0;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+#menu button:hover {
+    background-color: #1B4F72;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pongCanvas {
+    background-color: #000;
+    border: 4px solid #2E8BC0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 800px;
+    height: 600px;
+}
